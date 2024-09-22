@@ -6,5 +6,5 @@
 *.zip
 
 # Ignore acknowledgment and readme files
-acknowledgment.txt
+acknowledgments.txt
 readme.txt
