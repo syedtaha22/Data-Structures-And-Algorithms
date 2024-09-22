@@ -23,19 +23,20 @@ void dualPivotPartition(std::vector<int>& a, int lo, int hi, int& lp, int& rp) {
     }
 
     // Initialize the left and right pivot positions
-    int pivot1 = a[lo], pivot2 = a[hi];
+    // int pivot1 = a[lo], pivot2 = a[hi];
+
     // Initialize the pointers
     int i = lo + 1, lt = lo + 1, gt = hi - 1;
 
     // While i is less than or equal to gt
     while (i <= gt) {
         // If the element is less than the left pivot, swap it with the element at lt
-        if (a[i] < pivot1) {
+        if (a[i] < a[lo]) {
             std::swap(a[i], a[lt]);
             lt++; // Increment lt
         }
         // Else if the element is greater than the right pivot, swap it with the element at gt
-        else if (a[i] > pivot2) {
+        else if (a[i] > a[hi]) {
             // Swap the elements
             std::swap(a[i], a[gt]);
             gt--; // Decrement gt
