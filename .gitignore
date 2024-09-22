@@ -4,3 +4,7 @@
 
 # Ignore ZIP files
 *.zip
+
+# Ignore acknowledgment and readme files
+acknowledgment.txt
+readme.txt
