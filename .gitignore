@@ -8,3 +8,6 @@
 # Ignore acknowledgment and readme files
 acknowledgments.txt
 readme.txt
+
+# Ignore the misc directory
+misc/
