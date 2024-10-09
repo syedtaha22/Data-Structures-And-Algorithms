@@ -11,3 +11,6 @@ readme.txt
 
 # Ignore the misc directory
 misc/
+
+# Ignore .exe files
+*.exe
