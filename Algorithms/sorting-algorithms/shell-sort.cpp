@@ -7,8 +7,12 @@
 
     Time Complexity:
     - Best Case: O(n log n) - When the array is already sorted.
-    - Average Case: O(n^1.25) - Depends on the gap sequence used.
+    - Average Case: ? - Depends on the gap sequence used.
     - Worst Case: O(n^2) - When the gap sequence is 1.
+
+    Space Complexity: O(1)
+    In-Place: Yes
+    Stable: No
 */
 
 #include <iostream>
