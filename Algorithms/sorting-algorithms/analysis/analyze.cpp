@@ -61,7 +61,7 @@ int main() {
     // Variable to store the starting array size
     constexpr int MIN_SIZE = 0;
     // Variable to store the maximum array size
-    constexpr int MAX_SIZE = 500;
+    constexpr int MAX_SIZE = 100;
     // Variable to store the step size
     constexpr int STEP_SIZE = 100;
 
