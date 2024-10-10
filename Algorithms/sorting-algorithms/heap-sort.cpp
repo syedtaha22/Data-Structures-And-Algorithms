@@ -6,7 +6,7 @@
     - The extracted elements are placed at the end of the array, resulting in a sorted array.
 
     Time Complexity:
-    - Best Case: O(n log n)
+    - Best Case: O(n)
     - Average Case: O(n log n)
     - Worst Case: O(n log n)
 
