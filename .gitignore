@@ -14,3 +14,6 @@ misc/
 
 # Ignore .exe files
 *.exe
+
+# ignore .vscode directory
+.vscode/
